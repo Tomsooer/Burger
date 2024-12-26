@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "Roboto", sans-serif;
     background-color: #1C1C1C;
@@ -496,9 +500,18 @@ img {
         padding: 60px 0;
     }
 
+    .header_logo, .header__nav {
+        z-index: 10;
+    }
+
     .welcome .container {
         position: relative;
         z-index: 10;
+    }
+
+
+    .welcome {
+        position: relative;
     }
 
     .welcome::before {
